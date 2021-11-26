@@ -7,5 +7,5 @@ https://www.youtube.com/watch?v=f--pe75splM
 Use this guide
 https://github.com/mauville-technologies/PGSGP
 
-Use JDK 8
+Use JDK 8 - Newer versions of JDK are broken
 https://adoptopenjdk.net
