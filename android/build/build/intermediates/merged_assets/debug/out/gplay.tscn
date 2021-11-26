@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://GPlay.gd" type="Script" id=1]
+
+[node name="GPlay" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -61.5
+margin_top = -7.0
+margin_right = 61.5
+margin_bottom = 7.0
+text = "Google Play"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SignIn" type="Button" parent="CanvasLayer"]
+margin_left = 293.964
+margin_top = 999.841
+margin_right = 761.964
+margin_bottom = 1152.84
+text = "SIGN IN"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="CanvasLayer/SignIn" to="." method="_on_SignIn_pressed"]
